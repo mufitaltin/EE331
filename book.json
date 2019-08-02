@@ -1,8 +1,18 @@
 {
-    "plugins": ["disqus"],
-    "pluginsConfig": {
+    "plugins"       : ["richquotes", "disqus"]
+    ,"pluginsConfig":
+    {
+        "richquotes" :
+        {
+            "todos" : true
+        },
         "disqus": {
-            "shortName": "ee331.disqus.com"
+           "shortName": "slidify"
+        },
+         "fontSettings": {
+            "theme": "night",
+            "family": "sans",
+            "size": 3
         }
     }
 }
